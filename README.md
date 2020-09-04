@@ -28,7 +28,7 @@ A plugins to build your own captcha for your angular application. This plugin wi
 
 ### Installation
 
-> npm install @binssoft/ngx-captcha --save
+> npm install @eaven-x/ngx-captcha --save
 
 ### Implementation
 
@@ -47,7 +47,7 @@ import "**NgxCaptchaModule**" in your application module. For example: **app.mod
 
 add configration in your component. For example : **app.component.ts**
 
-	import {NgxCaptchaService} from  '@binssoft/ngx-captcha'
+	import {NgxCaptchaService} from  '@eaven-x/ngx-captcha'
 	
     export  class  AppComponent  implements  OnInit {
     captchaStatus:any = null;

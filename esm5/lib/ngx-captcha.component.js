@@ -3,7 +3,7 @@
  * Generated from: lib/ngx-captcha.component.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-import { Component, Input, } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { NgxCaptchaService } from './ngx-captcha.service';
 var NgxCaptchaComponent = /** @class */ (function () {
     function NgxCaptchaComponent(captchService) {
@@ -136,7 +136,7 @@ var NgxCaptchaComponent = /** @class */ (function () {
     NgxCaptchaComponent.decorators = [
         { type: Component, args: [{
                     selector: 'ngx-captcha',
-                    template: "<div class=\"captcha-container {{ config.cssClass}}\">\r\n    <canvas id=\"captcahCanvas\" width=\"316\" height=\"80\"></canvas>\r\n    \r\n\r\n    <div class=\"captcha-actions\">\r\n  <input type=\"text\" [(ngModel)]=\"captch_input\" />\r\n  <input type=\"button\" value=\"Check\" (click)=\"checkCaptcha()\" />\r\n  <a href=\"javascript:void(0)\" class=\"cpt-btn\" (click)=\"playCaptcha()\">\uD83D\uDD08</a>\r\n    <a href=\"javascript:void(0)\" class=\"cpt-btn reload\" (click)=\"createCaptcha()\">&#x21bb;</a>\r\n</div>\r\n<div class=\"powered-by\">\r\n  powered by BinsSoft\r\n</div>\r\n</div>",
+                    template: "<div class=\"captcha-container {{ config.cssClass}}\">\r\n    <canvas id=\"captcahCanvas\" width=\"316\" height=\"80\"></canvas>\r\n    \r\n\r\n    <div class=\"captcha-actions\">\r\n  <input type=\"text\" [(ngModel)]=\"captch_input\" />\r\n  <input type=\"button\" value=\"Check\" (click)=\"checkCaptcha()\" />\r\n    <a class=\"cpt-btn reload\" (click)=\"createCaptcha()\">&#x21bb;</a>\r\n</div>\r\n</div>",
                     styles: [".captcha-container{width:315px;box-shadow:1px 1px 1px 0 #ccc}.captcha-actions input[type=text]{padding:5px;border:1px solid #ccc;border-radius:10px 0 0 10px;outline:0}.captcha-actions input[type=button]{outline:0;padding:6px;border:none;background:#ccc;border-radius:0 10px 10px 0}.captcha-actions a{padding:10px;cursor:pointer;font-size:15px;font-weight:700;text-decoration:none;color:#222}.captcha-container .powered-by{font-size:11px;font-family:Arial;color:#ccc;padding:5px;display:block!important}"]
                 }] }
     ];
