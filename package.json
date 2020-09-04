@@ -1,5 +1,5 @@
 {
-  "name": "@eaven/ngx-captcha",
+  "name": "@eaven-x/ngx-captcha",
   "version": "0.5.0",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
